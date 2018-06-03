@@ -3,12 +3,6 @@
 /public/uploads
 /public/storage
 /public/demos/*
-/public/css/_custom.css
-/public/css/backend.css
-/public/css/all.css
-/public/js/_custom.js
-/public/js/all.js
-/public/js/backend.js
 /storage/app/public/uploads/*
 /vendor
 /.idea
@@ -18,11 +12,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-.env
-/resources/views/frontend/custom/*
-/resources/views/layouts/custom/*
-/resources/assets/sass/frontend/_custom.scss
-/resources/assets/sass/frontend/custom/*
-/resources/assets/images/frontend/custom/*
 /package-lock.json
 /composer.lock
