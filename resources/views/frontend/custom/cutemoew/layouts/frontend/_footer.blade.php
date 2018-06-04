@@ -1,109 +1,72 @@
-<!-- Footer -->
-<footer class="footer">
-
-    <!-- Newsletter -->
+<footer>
     <div class="container">
-        <form class="footer_newsletter">
-            <label class="h4">Subscribe Newsletter</label>
-            <input class="input-lg" type="email" placeholder="Enter Your Email..." />
-            <button class="btn btn-lg btn-color" type="submit">Sign Up</button>
-        </form>
-    </div>
-    <!-- End Newsletter -->
-
-    <!-- footer Info -->
-    <div class="container ptb-15">
         <div class="row">
-
-            <!-- About -->
-            <div class="col-lg-3 col-md-12 col-sm-12">
-                <div class="footer-block about-us-block">
-                    <h5>About Us</h5>
-                    <p>Gumbo beet greens corn soko endive gum gourd. Parsley allot courgette tatsoi pea sprouts fava bean soluta nobis est ses eligendi optio.</p>
-                    <ul class="footer-social-icon list-none-ib">
-                        <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <!-- f-weghit -->
+                <div class="f-weghit">
+                    <img src="{{ asset('images/cutemoew/logo.png') }}" alt="logo">
+                    <p>Cutemeow Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi consequatur dicta eaque facilis fuga fugiat illum in, incidunt libero nostrum, possimus quae rem repudiandae suscipit, tempora temporibus vitae voluptatibus!</p>
+                    <ul>
+                        <li><i class="icon-location-pin icons" aria-hidden="true"></i> <strong>Add:</strong> 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</li>
+                        <li><i class="icon-envelope-letter icons"></i> <strong>Email:</strong> Contact@erentheme.com</li>
+                        <li><i class="icon-call-in icons"></i> <strong>Phone Number:</strong> (800) 123 456 789</li>
                     </ul>
                 </div>
+                <!-- /f-weghit -->
             </div>
-
-            <!-- Links -->
-            <div class="col-lg-2 col-md-4 col-sm-4">
-                <div class="footer-block links">
-                    <h6>Information</h6>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <!-- f-weghit2 -->
+                <div class="f-weghit2">
+                    <h4>Information</h4>
                     <ul>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Delivery Information</a></li>
-                        <li><a href="#">Discount</a></li>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Our Sitemap</a></li>
-                        <li><a href="#">Terms &amp; Condition</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Delivery Inforamtion </a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
                     </ul>
                 </div>
+                <!-- /f-weghit2 -->
             </div>
-
-            <!-- Links -->
-            <div class="col-lg-2 col-md-4 col-sm-4">
-                <div class="footer-block links">
-                    <h6>Our Links</h6>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <!-- f-weghit2 -->
+                <div class="f-weghit2">
+                    <h4>Customer Service</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Delivery Information</a></li>
-                        <li><a href="#">Discount</a></li>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Our Sitemap</a></li>
-                        <li><a href="#">Terms &amp; Condition</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Help & Contact Us</a></li>
+                        <li><a href="#">Returns & Refunds </a></li>
+                        <li><a href="#">Online Stores</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
                     </ul>
                 </div>
-            </div>
-
-            <!-- Links -->
-            <div class="col-lg-2 col-md-4 col-sm-4">
-                <div class="footer-block links">
-                    <h6>Shop</h6>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Delivery Information</a></li>
-                        <li><a href="#">Discount</a></li>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Our Sitemap</a></li>
-                        <li><a href="#">Terms &amp; Condition</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!--Contact-->
-            <div class="col-lg-3 col-md-12 col-sm-12">
-                <div class="footer-block contact-block">
-                    <h6>Contact</h6>
-                    <ul>
-                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>1 Wintergreen Dr. Huntley
-                            <br>
-                            IL 60142, Usa</li>
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@sky.com">info@sky.com</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i>(013) 456789</li>
-                        <li><i class="fa fa-fax" aria-hidden="true"></i>89567989</li>
-                    </ul>
-                </div>
+                <!-- /f-weghit2 -->
             </div>
 
         </div>
     </div>
-    <!-- footer Info -->
-
-    <div class="copyright-bar container-fluid">
-        <div class="row">
-            <div class="container">
-                <div class="copyright">
-                    <p>&copy; Created by <a>NileForest</a>. MazelShop Responsive Ecommerce Theme 2017</p>
-                    <img src="img/payment_logos.png" alt="Mazel Shop" />
+    <!-- copayright -->
+    <div class="copayright cwhite">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    Copyright &copy; <a href="#">Cutemoewk</a> all rights reserved. Powered by <a href="#">Webmelbourne</a>
+                </div>
+                <div class="text-right col-xs-12 col-sm-6 col-md-6">
+                    <div class="f-sicon2">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- /copayright -->
 </footer>
-<!-- End Footer -->
+<!--  /main  -->

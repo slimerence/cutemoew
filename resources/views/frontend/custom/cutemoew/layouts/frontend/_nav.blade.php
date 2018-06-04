@@ -11,46 +11,45 @@
             <ul class="nav navbar-nav">
                 <li> <a href="index.html" class="dropdown-toggle"><span>Home</span></a>
                 </li>
-                <li class="dropdown"> <a href="list.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span> Shop</span></a>
+                <li class="dropdown"> <a href="list.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span>Menu A</span></a>
                     <div class="dropdown-menu dropdownhover-bottom mega-menu" role="menu">
                         <div class="col-sm-8 col-md-8">
                             <ul>
                                 <li><strong>summer</strong></li>
-                                <li><a href="#">Standard Shop Page</a></li>
-                                <li><a href="#">Small Products</a></li>
-                                <li><a href="#">Medium Products</a></li>
-                                <li><a href="#">Large Products</a></li>
+                                <li><a href="#">tops and bottom sets</a></li>
+                                <li><a href="#">tops & T-shirt</a></li>
+                                <li><a href="#">shorts & bottom</a></li>
+                                <li><a href="#">sun protection</a></li>
                                 <li><a href="#">Sidebar</a></li>
                                 <li><a href="#">Pagination</a></li>
                                 <li><a href="#">Shop Infinity</a></li>
                             </ul>
                             <ul>
-                                <li><strong>Products Pages</strong></li>
-                                <li><a href="#">Product Page V1</a></li>
-                                <li><a href="#">Product Page V2</a></li>
-                                <li><a href="#">Product Page V3</a></li>
-                                <li><a href="#">Product Page V4</a></li>
+                                <li><strong>winter</strong></li>
+                                <li><a href="#">tops and bottom sets</a></li>
+                                <li><a href="#">tops & T-shirt</a></li>
+                                <li><a href="#">shorts & bottom</a></li>
+                                <li><a href="#">sun protection</a></li>
                                 <li><a href="#">Simple Product</a></li>
                                 <li><a href="#">Variable Product</a></li>
                                 <li><a href="#">External Product</a></li>
                             </ul>
                             <ul>
-                                <li><strong>Other Shop Pages</strong></li>
+                                <li><strong>spring&autumn</strong></li>
                                 <li><a href="#">Collection</a></li>
-                                <li><a href="#">LookBook</a></li>
-                                <li><a href="#">Shopping Cart</a></li>
-                                <li><a href="#">Wishlist</a></li>
-                                <li><a href="#">Order Tracking</a></li>
-                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">tops and bottom sets</a></li>
+                                <li><a href="#">tops & T-shirt</a></li>
+                                <li><a href="#">shorts & bottom</a></li>
+                                <li><a href="#">sun protection</a></li>
                                 <li><a href="#">Checkout</a></li>
                             </ul>
                         </div>
-                        <div class="col-sm-4 col-md-4"> <img src="assets/images/Hover-menu-img.jpg" alt="Hover-menu-img"> </div>
+                        <div class="col-sm-4 col-md-4"> <img src="{{ asset('images/cutemoew/products/cata5.png') }}" alt="Hover-menu-img"> </div>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     <span>Shops2</span>
+                     <span>Menu B</span>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -108,37 +107,11 @@
                                 <li><a class="dropdown-item" href="#">others</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Google</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Submenu</a></li>
-                                <li><a class="dropdown-item" href="#">Submenu0</a></li>
-                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                                        <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                                        <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
+
                     </ul>
                 </li>
                 <li> <a href="#" class="dropdown-toggle"><span>About</span></a> </li>
-                <li class="dropdown">
-                    <a href="blog.html" data-toggle="dropdown" role="button" aria-expanded="false"><span>Blog</span></a>
-                    <ul class="dropdown-menu dropdownhover-bottom" role="menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog-columm3-masonry.html">Blog Columm 3 Masonry</a></li>
-                        <li><a href="blog-filter-2-columns.html">Blog Filter 2 Columns</a></li>
-                        <li><a href="blog-filter-3-columns.html">Blog Filter 3 Columns</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
+                <li> <a href="contact.html"><span>Blog</span></a> </li>
                 <li> <a href="contact.html"><span>Contact</span></a> </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

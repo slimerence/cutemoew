@@ -1,3 +1,11 @@
+h1,
+h2,
+h3,
+p,
+a {
+  color: #3d3735;
+}
+
 .navbar.navbar-inverse.navbar-default {
   background-color: #FCEFE7;
 }
@@ -18,6 +26,7 @@
   top: 0;
   left: 100%;
   margin-top: -6px;
+  border-radius: 1.5em;
 }
 
 /* rotate caret on hover */
@@ -32,11 +41,123 @@
   border-radius: 1.5em;
 }
 
+.banner-img {
+  background-color: #FCEFE7;
+  text-align: center;
+  border-radius: 1.5em;
+  -webkit-box-shadow: 1px 1px 16px 0px #d8ccc4;
+          box-shadow: 1px 1px 16px 0px #d8ccc4;
+}
+
 .navbar-nav > li > .dropdown-menu {
   border-radius: 1.5em;
 }
 
 img {
+  border-radius: 1.5em;
+}
+
+.caption {
+  color: #282828;
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 39%;
+  z-index: 999;
+  bottom: -30%;
+  padding: 3em;
+  background-color: rgba(252, 239, 231, 0.71);
+  border-radius: 1.5em;
+}
+
+.caption p {
+  display: inline;
+}
+
+.caption .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.caption h2 {
+  float: none;
+  width: 100%;
+}
+
+.caption .btn.get-start span {
+  border: 2px solid #a8a7a6;
+  border-radius: 1.5em;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .caption {
+    width: 95%;
+    max-width: none;
+    bottom: -20%;
+  }
+}
+
+footer {
+  background-color: #FCEFE7;
+}
+
+.banner-text {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #ffffffd6;
+  width: 60%;
+  height: 80%;
+  padding: 2em;
+  border-radius: 1.2em;
+}
+
+.imgct {
+  padding: 0 3em;
+}
+
+.banner-cata .banner-img img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.banner-cata .banner-img:hover .banner-img {
+  opacity: 0.3;
+}
+
+.banner-cata .banner-img:hover .banner-text {
+  opacity: 1;
+}
+
+.news-text .readbtn {
+  border-radius: 1em;
+  background-color: #fcefe7;
+}
+
+.news-text .readbtn:hover {
+  border: 2px solid #fcefe7;
+  color: #3d3735;
+  background: #ffffff;
+  font-family: inherit;
+}
+
+.banner-text2 a {
   border-radius: 1.5em;
 }
 

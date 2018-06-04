@@ -1965,17 +1965,12 @@ header {
 .banner-bg {
 	background: rgb(255, 255, 255) none repeat scroll 0 0;
 	float: left;
-	margin-top: -100px;
+	margin-top: -2em;
 	padding: 30px 30px 0;
 	position: relative;
 	width: 100%;
 }
-.banner-text {
-	left: 40px;
-	position: absolute;
-	top: 20%;
-	width: 50%;
-}
+
 .banner-text h3 {
 	font-size: 16px;
 	color: #282828;
@@ -4185,10 +4180,7 @@ footer {
 		min-width: 238px;
 		z-index: 99999;
 	}
-	.caption {
-		width: 95%;
-		padding-top: 150px !important;
-	}
+
 	.caption h2 {
 		font-size: 22px;
 	}
@@ -5635,7 +5627,6 @@ footer {
 		width: 100%;
 	}
 	.caption {
-		padding-top: 200px !important;
 		width: 90%;
 	}
 	.carousel-inner>.item {

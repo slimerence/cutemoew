@@ -1,14 +1,14 @@
 @extends(_get_frontend_layout_path('frontend'))
 
 @section('content')
-<section class="banner-outer">
+<section class="banner-outer banner-cata">
     <!-- .banner-outer -->
     <div class="container">
         <!-- .banner-bg -->
         <div class="banner-bg">
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-4 imgct">
                 <!-- .banner-img -->
-                <div class="banner-img animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s"> <img src="assets/images/banner1.jpg" alt="about-img1" />
+                <div class="banner-img animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s"> <img src="images/cutemoew/products/cata1.png" alt="about-img1" />
                     <div class="banner-text">
                         <h3>British Made Pocket Knife - Oak</h3>
                         <p><a href="#">Discover Now</a></p>
@@ -16,9 +16,9 @@
                 </div>
                 <!-- /.banner-outer -->
             </div>
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-4 imgct">
                 <!-- .banner-img -->
-                <div class="banner-img animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s"> <img src="assets/images/banner2.jpg" alt="about-img1" />
+                <div class="banner-img animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s"> <img src="images/cutemoew/products/cata2.png" alt="about-img1" />
                     <div class="banner-text">
                         <h3>Chair Kimi No Isu Project</h3>
                         <p><a href="#">Discover Now</a></p>
@@ -26,9 +26,9 @@
                 </div>
                 <!-- /.banner-outer -->
             </div>
-            <div class="col-sm-4 col-md-4 animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+            <div class="col-sm-4 col-md-4 animated wow zoomIn imgct" data-wow-duration=".5s" data-wow-delay=".2s">
                 <!-- .banner-img -->
-                <div class="banner-img"> <img src="assets/images/banner3.jpg" alt="about-img1" />
+                <div class="banner-img"> <img src="images/cutemoew/products/cata3.png" alt="about-img1" />
                     <div class="banner-text">
                         <h3>Merino Lambswool Scarf Moss</h3>
                         <p><a href="#">Discover Now</a></p>
@@ -53,13 +53,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/21.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <!-- /.hover-img -->
@@ -73,7 +73,48 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/26.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_02.jpg" alt="2" />
+                        <!-- .hover-img -->
+                        <div class="hover-img">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
+                        <!-- /.hover-img -->
+                    </div>
+                    <!-- /.pro-img --><a href="#">Wooden container Bowl</a> <a href="#" class="addtocart">+ Add to cart</a>
+                    <div class="price">$160.00</div>
+                </div>
+                <!-- /.pro-text -->
+            </div>
+            <div class="col-md-3">
+                <!-- .pro-text -->
+                <div class="pro-text">
+                    <!-- .pro-img -->
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_03.jpg" alt="2" />
+                        <!-- .hover-img -->
+                        <div class="hover-img">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.hover-img -->
+                    </div>
+                    <!-- /.pro-img --><a href="#">Wooden container Bowl</a> <a href="#" class="addtocart">+ Add to cart</a>
+                    <div class="price">$160.00</div>
+                </div>
+                <!-- /.pro-text -->
+            </div>
+            <div class="col-md-3">
+                <!-- .pro-text -->
+                <div class="pro-text">
+                    <!-- .pro-img -->
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_shirt_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
@@ -94,33 +135,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/24.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/girl_shirt_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- /.hover-img -->
-                    </div>
-                    <!-- /.pro-img --><a href="#">Wooden container Bowl</a> <a href="#" class="addtocart">+ Add to cart</a>
-                    <div class="price">$160.00</div>
-                </div>
-                <!-- /.pro-text -->
-            </div>
-            <div class="col-md-3">
-                <!-- .pro-text -->
-                <div class="pro-text">
-                    <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/17.jpg" alt="2" />
-                        <!-- .hover-img -->
-                        <div class="hover-img">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
@@ -135,13 +156,33 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/22.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/kids_wear_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.hover-img -->
+                    </div>
+                    <!-- /.pro-img --><a href="#">Wooden container Bowl</a> <a href="#" class="addtocart">+ Add to cart</a>
+                    <div class="price">$160.00</div>
+                </div>
+                <!-- /.pro-text -->
+            </div>
+            <div class="col-md-3">
+                <!-- .pro-text -->
+                <div class="pro-text">
+                    <!-- .pro-img -->
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_03.jpg" alt="2" />
+                        <!-- .hover-img -->
+                        <div class="hover-img">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
@@ -156,54 +197,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/7.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_02.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- /.hover-img -->
-                    </div>
-                    <!-- /.pro-img --><a href="#">Wooden container Bowl</a> <a href="#" class="addtocart">+ Add to cart</a>
-                    <div class="price">$160.00</div>
-                </div>
-                <!-- /.pro-text -->
-            </div>
-            <div class="col-md-3">
-                <!-- .pro-text -->
-                <div class="pro-text">
-                    <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/19.jpg" alt="2" />
-                        <!-- .hover-img -->
-                        <div class="hover-img">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
-                        <!-- /.hover-img -->
-                    </div>
-                    <!-- /.pro-img --><a href="#">Wooden container Bowl</a> <a href="#" class="addtocart">+ Add to cart</a>
-                    <div class="price">$160.00</div>
-                </div>
-                <!-- /.pro-text -->
-            </div>
-            <div class="col-md-3">
-                <!-- .pro-text -->
-                <div class="pro-text">
-                    <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/6.jpg" alt="2" />
-                        <!-- .hover-img -->
-                        <div class="hover-img">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="discount tage"> <span class="discount-text">-15%</span> </div>
@@ -226,7 +226,7 @@
     <div class="col-sm-6 col-md-6">
         <!-- .banner-img -->
         <div class="banner-img">
-            <img src="assets/images/bg-banner.jpg" alt="about-img1" />
+            <img src="images/cutemoew/bg-banner.jpg" alt="about-img1" />
             <div class="banner-text2">
                 <h4>Products Essentials</h4>
                 <h3>Bottle With Wooden Cork</h3>
@@ -240,7 +240,7 @@
     <div class="col-sm-6 col-md-6">
         <!-- .banner-img -->
         <div class="banner-img">
-            <img src="assets/images/bg-banner2.jpg" alt="about-img1" />
+            <img src="images/cutemoew/bg-banner2.jpg" alt="about-img1" />
             <div class="banner-text2">
                 <h4>Products Essentials</h4>
                 <h3>Hauteville Plywood Chair</h3>
@@ -264,13 +264,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/21.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_02.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
@@ -285,13 +285,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/26.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="discount tage"> <span class="discount-text">-15%</span> </div>
@@ -306,13 +306,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/24.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/baby_romper_03.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
@@ -328,13 +328,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/17.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/kids_wear_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="discount tage"> <span class="discount-text">-15%</span> </div>
@@ -349,13 +349,13 @@
                 <!-- .pro-text -->
                 <div class="pro-text">
                     <!-- .pro-img -->
-                    <div class="pro-img"> <img src="assets/images/Products/22.jpg" alt="2" />
+                    <div class="pro-img"> <img src="images/cutemoew/products/girl_shirt_01.jpg" alt="2" />
                         <!-- .hover-img -->
                         <div class="hover-img">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href="#" ><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <div class="new tage"> <span class="new-text">NEW</span> <span class="pres-text">-15%</span> </div>
@@ -433,89 +433,6 @@
     </div>
     <!-- /Latest News -->
 </section>
-<section class="subscribe text-center">
-    <!-- .subscribe -->
-    <div class="container">
-        <h2>Get Discount Info</h2>
-        <p>ubscribe to the Outstock mailing list to receive updates on new arrivals, special offers and
-            <br> other discount information.</p>
-        <input type="text" placeholder="Subscribe to our newsletter...">
-        <input type="button" value="Subscribe">
-    </div>
-    <!-- /.subscribe -->
-</section>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6">
-                <!-- f-weghit -->
-                <div class="f-weghit">
-                    <img src="assets/images/flogo.png" alt="logo">
-                    <p>Outstock is a premium Templates theme with advanced admin module. It’s extremely customizable, easy to use and fully responsive and retina ready.</p>
-                    <ul>
-                        <li><i class="icon-location-pin icons" aria-hidden="true"></i> <strong>Add:</strong> 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</li>
-                        <li><i class="icon-envelope-letter icons"></i> <strong>Email:</strong> Contact@erentheme.com</li>
-                        <li><i class="icon-call-in icons"></i> <strong>Phone Number:</strong> (800) 123 456 789</li>
-                    </ul>
-                </div>
-                <!-- /f-weghit -->
-            </div>
-            <div class="col-xs-12 col-sm-3 col-md-3">
-                <!-- f-weghit2 -->
-                <div class="f-weghit2">
-                    <h4>Information</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Delivery Inforamtion </a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
-                    </ul>
-                </div>
-                <!-- /f-weghit2 -->
-            </div>
-            <div class="col-xs-12 col-sm-3 col-md-3">
-                <!-- f-weghit2 -->
-                <div class="f-weghit2">
-                    <h4>Customer Service</h4>
-                    <ul>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Help & Contact Us</a></li>
-                        <li><a href="#">Returns & Refunds </a></li>
-                        <li><a href="#">Online Stores</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <!-- /f-weghit2 -->
-            </div>
-
-        </div>
-    </div>
-    <!-- copayright -->
-    <div class="copayright cwhite">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    Copyright &copy; <a href="#">Outstock</a> all rights reserved. Powered by <a href="#">zcube</a>
-                </div>
-                <div class="text-right col-xs-12 col-sm-6 col-md-6">
-                    <div class="f-sicon2">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /copayright -->
-</footer>
-<!--  /main  -->
 
 <!--  quick popup  -->
 <div class="modal fade bwidth" id="quickModal" tabindex="-1" role="dialog">
