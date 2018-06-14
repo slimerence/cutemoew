@@ -1,11 +1,28 @@
 $bgcolor: #FCEFE7;
 
+@import "cutemoew/assets/css/bootstrap.min.css";
+@import "cutemoew/assets/css/bootstrap-dropdownhover.min.css";
+@import "cutemoew/assets/font/css/font-awesome.min.css";
+@import "cutemoew/assets/simple-line-icon/css/simple-line-icons.css";
+@import "cutemoew/assets/css/animate.min.css";
+@import "cutemoew/assets/css/style.css";
+@import "cutemoew/assets/css/slider.css";
+@import "cutemoew/assets/css/baguetteBox.css";
+@import "cutemoew/assets/owl-carousel/owl.carousel.css";
+@import "cutemoew/assets/owl-carousel/owl.theme.css";
+
+
+
+
+
 h1, h2, h3, p, a{
   color:rgba(61,55,53,1);
 }
 
 .navbar.navbar-inverse.navbar-default{
   background-color: $bgcolor;
+  box-shadow: 1px 1px 16px 0px #d8ccc4;
+  padding: 0;
 }
 
 .navbar-brand {
@@ -62,6 +79,7 @@ img{
   padding: 3em;
   background-color: rgba(252, 239, 231, 0.71);
   border-radius: 1.5em;
+  box-shadow: 1px 1px 16px 0px #d8ccc4;
   p{
     display: inline;
   }
@@ -143,4 +161,48 @@ footer{
   -webkit-border-radius: 1.5em;
   -moz-border-radius: 1.5em;
   border-radius: 1.5em;
+}
+.product-detail-bg{
+  background:#fcefe747;
+}
+
+.pro-text .addtocart2 {
+  background-color:#fff0;
+  border-radius:1em;
+  margin-right:0.5em;
+}
+.quantity-input{
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #f5f5f5;
+  padding-left: 1em;
+}
+
+.size{
+  margin-bottom:1em;
+}
+
+#add-to-cart-form {
+  p{
+    font-weight:500;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.dropdown-menu>li>a:hover {
+  background-color:$bgcolor;
+  border-radius:0.8em;
+}
+
+.contact-info img{
+  border-radius: 0;
+}
+
+#input-email {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  font-size: 13px;
+  padding: 10px;
 }
