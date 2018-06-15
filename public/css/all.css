@@ -7214,3 +7214,88 @@ footer {
   padding: 10px;
 }
 
+#home-slider3 .caption {
+  padding: 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+#home-slider3 .carousel-indicators {
+  width: auto;
+}
+
+.grid-shop .row {
+  margin: 0 0 2em 0;
+}
+
+.catfilter {
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
+}
+
+.catfilter .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em;
+  font-size: 0.9em;
+  border: none;
+  cursor: pointer;
+}
+
+.catfilter .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.catfilter .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcefe747;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding-bottom: 0;
+  border-radius: 0.6em;
+}
+
+.catfilter .dropdown-content a {
+  color: black;
+  padding: 0.2em;
+  padding-left: 2em;
+  font-size: 0.8em;
+  text-decoration: none;
+  display: block;
+}
+
+.catfilter .dropdown-content a:hover {
+  background-color: #FCEFE7;
+}
+
+.catfilter .dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 0.6em;
+}
+
+.f-weghit > p {
+  margin-top: 1em;
+}
+
+.copayright {
+  padding: 0.2em 0;
+}
+
+.blog .readbtn {
+  border-radius: 1em;
+  background-color: #fcefe747;
+}
+
+.blog .readbtn:hover {
+  border-radius: 1em;
+  background-color: #FCEFE7;
+  border-color: #fcefe747;
+}
+
